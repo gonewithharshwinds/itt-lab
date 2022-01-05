@@ -1,0 +1,131 @@
+@charset "UTF-8";
+
+/*
+    AUTHOR : Harsh Ajay Mehta
+    ID : 190911272
+    ALIAS : gonewithharshwinds
+    SOCIAL : @gonewithharshwinds
+    Question : L1 Q1
+*/
+
+body {  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  }
+p {  padding-top: 15px;  padding-left: 20px;  }
+
+/* BG Animation*/
+.color-change-2x {
+	-webkit-animation: color-change-2x 2s linear infinite alternate forwards;
+	        animation: color-change-2x 2s linear infinite alternate forwards;
+}
+@-webkit-keyframes color-change-2x {
+  0% {
+    background: #19dcea;
+  }
+  100% {
+    background: #b22cff;
+  }
+}
+@keyframes color-change-2x {
+  0% {
+    background: #19dcea;
+  }
+  100% {
+    background: #b22cff;
+  }
+}
+
+/* Header */
+
+.header{  
+  position: absolute;
+  text-align: center;
+  top: 0%;
+  left: 50%;
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica;
+  transform: translateX(-50%);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  color: #aaa;  
+}
+
+/* Link 1 */
+  .btn-one{  
+    position: absolute;
+    text-align: center;
+    top: 45%;
+    left: 50%;
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica;
+    transform: translateX(-50%);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: #527ACC;  
+    transition: color 0.7s linear;
+}
+.btn-one:hover {
+  color: #eeeeee;
+}
+
+/* Link 2 */
+.btn-two{  
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica;
+    transform: translateX(-50%);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: #527ACC;  
+    transition: color 0.7s linear;
+}
+.btn-two:hover {
+  color: #eeeeee;
+}
+
+/* Link 3 */
+.btn-three{  
+    position: absolute;
+    text-align: center;
+    top: 55%;
+    left: 50%;
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica;
+    transform: translateX(-50%);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: #527ACC;  
+    transition: color 0.7s linear;
+}
+.btn-three:hover {
+  color: #eeeeee;
+} 
+
+/*footer*/
+.end{  
+  position: absolute;
+  text-align: center;
+  left: 50%;
+  bottom: 1%;
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica;
+  transform: translateX(-50%);
+  font-style: normal;
+  font-weight: 100;
+  font-size: 14px;
+  color: #A8A7A7;
+  transition: color 0.5s linear;
+}
+.end:hover {
+  color: #bbb;
+}
