@@ -2,10 +2,12 @@
 
 ## oneOone
 
-- Create a web page containing following elements:
+- Create a web page containing following elements: <br>
 a) A link to file image.html located in the text subdirectory.<br>
 b) A link to file background.html located in the same directory. <br>
 c) A link to the email address.
+
+![L1-Q1](itt-lab/graphics/oneOone.gif)
 
 ## oneOtwo
 
