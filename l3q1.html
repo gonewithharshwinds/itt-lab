@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<!--  
+    To make a website where WORD-GROWING 
+    grows and then after a time period, it 
+    changes to WORD-SHRINKING and shrinks  
+-->
+<html>
+    <head>
+        <title>
+            ITT LAB 3 Q1
+        </title>
+        <meta charset="UTF-8">
+        <link href="l3q1.css" l="stylesheet" type="text/css">
+    </head>
+    <body>
+        <div class="header">
+            <center><h1>JAVASCRIPT - I</h1></center>
+            <center><h3> <i>Grow N Shrink</i> </h3></center>
+            <hr>
+            <div id="card">
+                <center><p id="textchange"></p></center>
+            </div>
+
+            <script>
+                    var V1 = setInterval(inTimer, 100);
+                    var FS = 10;
+                    var anim = document.getElementById("textchange");
+                        function inTimer() {
+                        anim.innerHTML = 'TEXT-GROWING';
+                        anim.setAttribute('style', "font-size: " + FS + "px; color: red");
+                        FS += 5;
+                        if(FS >= 50 ){
+                        clearInterval(V1);
+                        V2 = setInterval(deTimer, 100);
+                        }
+                        }
+
+                        function deTimer() {
+                        FS -= 5;
+                        anim.innerHTML = 'TEXT-SHRINKING';
+                        anim.setAttribute('style', "font-size: " + FS + "px; color: blue");
+                        if(FS === 5 ){
+                        clearInterval(V2);
+                        V1 = setInterval(inTimer, 100);
+                        }    
+                    }
+            </script>
+        </div>
+    </body>
+</html>

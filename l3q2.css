@@ -1,0 +1,94 @@
+@charset "utf-8";
+
+body {
+    background-color:#707070;
+    font:16px normal normal "Open Sans",Helvetica,sans-serif;
+  }
+  
+  .title {text-align:center;}
+  .title h1 {
+    font:50px normal normal "Bevan",sans-serif;
+    color:#fff;
+    text-shadow:2px 2px 0px rgba(255,255,255,0.5),4px 4px 0px rgba(255,255,255,0.5);
+    padding-bottom:5px;
+    border-bottom:5px solid rgba(255,255,255,0.5);
+    width:900px;
+    margin:20px auto;
+    margin-top:0px;
+  }
+  
+  .project-cont {
+    width:900px;
+    margin:0px auto;
+    background-color:rgba(255, 255, 255, 0.27);
+    padding:20px 0px;
+    color:#fff;
+  }
+  .inner{
+    margin:15px auto; 
+    margin-top: 100px;
+    border: 2px solid #fff;
+    width: 600px;
+    padding: 10px;
+    border-radius: 10px;
+    padding-bottom: 0px;
+
+  }
+  .project-cont .inner {padding:0px 20px;}
+
+  
+  /* Input Area */
+  .input-controls {
+    text-align:center;
+  }
+  .input-controls .inp-control {
+    display:inline-block;
+    padding:5px 10px;
+    font-size:20px;
+    padding: 20px;
+    vertical-align:middle;
+    background-color:rgb(134, 134, 134);
+    border-radius:10px;
+  } 
+  
+  .input-controls .input-word {
+    max-width:400px;
+    min-width:200px;
+  }
+  .input-controls .input-word:focus {
+    outline:none;
+  }
+  
+  
+  .input-controls .button-submit {
+    cursor:pointer;
+    background-color:#ffffff;
+    padding: 10px;
+  }
+  
+  .input-controls .button-submit:active {
+    background-color:#f5fff7;
+  }
+  
+  .results-pane {
+    font-size:20px;
+    padding: 20px;
+    text-align:center;
+    font-family:Bevan;
+    text-shadow:1px 1px 0px #eee;
+    margin:15px auto;
+    width:300px;
+    border-radius:10px;
+    color:#fff;
+    border: 2px ridge #eee;
+    background: black;
+  }
+  
+  
+  .tpsect {text-align:center;border-radius:20px;}
+  
+  
+  
+  
+  
+  
